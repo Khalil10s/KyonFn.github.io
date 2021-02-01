@@ -1,0 +1,65 @@
+#wrapper{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+header{
+
+  height: 100px;
+  width: 100%;
+ background-color: #191970;
+
+  }
+
+  nav{
+
+    height: 50px;
+    width: 100%;
+    background-color: #4169E1;
+}
+main{
+  height: 400px;
+  width: 60%;
+  background-color: #00CED1;
+}
+
+aside{
+  height: 400px;
+  width: 60%;
+  background-color: #00CED1;
+  }
+
+  footer{
+    height: 50px;
+    width: 100%;
+    background-color: #191970;
+    }
+
+    #container{
+      display: flex;
+      }
+
+
+      /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
